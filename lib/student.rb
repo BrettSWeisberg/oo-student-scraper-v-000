@@ -11,7 +11,7 @@ class Student
           @name = value
         elsif key == :location
           @location = value
-        
+
           @@all << @name
           end
       end
