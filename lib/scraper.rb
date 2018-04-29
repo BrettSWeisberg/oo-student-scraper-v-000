@@ -16,7 +16,7 @@ class Scraper
          link = attribute.css("a").first.first.last
 
           [:name => "#{name}", :location => "#{from}", :profile_url => "#{link}"]
-      end.flatten
+  #    end.flatten
     end.flatten
   end
 
