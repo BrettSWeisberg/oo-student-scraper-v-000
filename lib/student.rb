@@ -9,9 +9,9 @@ class Student
     @location = nil
 
       student_hash.each do |key, value|
-        if key = :name
+        if key == :name
           @name = value
-        elsif element = :location
+        elsif element == :location
           @location = value
         end
       end
