@@ -16,7 +16,7 @@ class Student
           end
       end
         @@all << self
-        learn
+        binding.pry
     end
 
 
