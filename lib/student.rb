@@ -7,8 +7,8 @@ class Student
   def initialize(student_hash)
     @name = nil
     @location = nil
-    
-      student_hash.each do |element|
+
+      student_hash.each do |key, value|
         if element = :name
           @name = element
         elsif element = :location
