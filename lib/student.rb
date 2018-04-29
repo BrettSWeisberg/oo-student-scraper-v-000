@@ -16,6 +16,7 @@ class Student
           end
       end
         @@all << self
+        learn
     end
 
 
