@@ -9,7 +9,7 @@ class Scraper
     doc = Nokogiri::HTML(html)
      name_container = doc.css("div .roster-cards-container")
 
-     name_container.map do |div|
+  #   name_container.map do |div|
        div.css(".student-card").map do |attribute|
          name = attribute.css("h4").text
          from = attribute.css("p").text
