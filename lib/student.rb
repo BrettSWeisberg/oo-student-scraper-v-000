@@ -5,6 +5,9 @@ class Student
   @@all = []
 
   def initialize(student_hash)
+    @name = nil
+    @location = nil
+    
       student_hash.each do |element|
         if element = :name
           @name = element
