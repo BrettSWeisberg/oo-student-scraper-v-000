@@ -6,7 +6,7 @@ class Student
 
   def initialize(student_hash)
       binding.pry
-    
+
   end
 
   def self.create_from_collection(students_array)
