@@ -20,7 +20,7 @@ class Student
 
 
   def self.create_from_collection(students_array)
-      Scraper.scrape_index_page(students_array)
+    #  Scraper.scrape_index_page(students_array)
       binding.pry
   end
 
