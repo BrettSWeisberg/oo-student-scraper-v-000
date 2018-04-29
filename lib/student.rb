@@ -11,7 +11,7 @@ class Student
       student_hash.each do |key, value|
         if key == :name
           @name = value
-        elsif element == :location
+        elsif key == :location
           @location = value
         end
       end
