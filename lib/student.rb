@@ -15,6 +15,7 @@ class Student
           @location = value
         end
       end
+      @@all << @name
     end
 
 
