@@ -11,12 +11,9 @@ class Student
           @name = value
         elsif key == :location
           @location = value
-
-
-          end
+        end
       end
         @@all << self
-        binding.pry
     end
 
 
