@@ -14,7 +14,6 @@ binding.pry
         end
       end
       @@all << @name
-      binding.pry
     end
 
 
