@@ -21,6 +21,7 @@ class Student
 
   def self.create_from_collection(students_array)
     #  Scraper.scrape_index_page(students_array)
+    #name_location
       binding.pry
   end
 
