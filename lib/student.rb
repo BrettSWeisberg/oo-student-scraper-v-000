@@ -12,10 +12,10 @@ class Student
         elsif key == :location
           @location = value
 
-          @@all << @name
+
           end
       end
-
+        @@all << @name
     end
 
 
