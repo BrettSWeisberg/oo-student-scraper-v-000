@@ -15,7 +15,7 @@ class Student
 
           end
       end
-        @@all << @name
+        @@all << self
     end
 
 
