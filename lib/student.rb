@@ -5,9 +5,17 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-      binding.pry
+      student_hash.each do |element|
+        if element = :name
+          @name = element
+        elsif element = :location
+          @name = element
+        end
+      end
+    end
 
-  end
+
+
 
   def self.create_from_collection(students_array)
 
