@@ -24,7 +24,9 @@ class Student
     #name_location
       students_array.each do |student|
         @@all << student[1]
+        binding.pry
       end
+
 
 
   end
