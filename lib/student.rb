@@ -23,12 +23,8 @@ class Student
     #  Scraper.scrape_index_page(students_array)
     #name_location
       students_array.each do |student|
-        @@all << student[:name]
-        
+        @@all << student[:name]    
       end
-
-
-
   end
 
   def add_student_attributes(attributes_hash)
