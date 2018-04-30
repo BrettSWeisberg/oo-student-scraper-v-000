@@ -25,7 +25,7 @@ class Student
       students_array.each do |student|
         @@all << student
       end
-        
+
       
   end
 
