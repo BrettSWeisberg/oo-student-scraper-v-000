@@ -23,8 +23,9 @@ class Student
     #  Scraper.scrape_index_page(students_array)
     #name_location
       students_array.each do |student|
-        @@all << student[:name] 
-        binding.pry   
+      @student   student[:name]
+      @@all << @student
+        binding.pry
       end
   end
 
