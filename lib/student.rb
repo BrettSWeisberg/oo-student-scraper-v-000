@@ -29,9 +29,8 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-  # Scraper.scrape_profile_page(attributes_hash)
-  
-   binding.pry
+   attributes_hash.each do |key, value|
+     self.send("#{key}=", value)
   end
 
   def self.all
